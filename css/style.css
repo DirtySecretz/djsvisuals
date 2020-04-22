@@ -1,0 +1,24 @@
+body{
+	background-color: black;
+}
+svg {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+svg > g{
+	opacity: 0;
+}
+#Circles-HH,
+#Keys,
+#Bass,
+#Vocals{
+	opacity: 1;
+}
+#Circles-HH > g,
+#Keys > rect,
+#Bass > rect,
+#Vocals > path{
+	opacity: 0;
+}
